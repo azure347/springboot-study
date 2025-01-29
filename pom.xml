@@ -20,6 +20,7 @@
     <description>Study project for Spring Boot</description>
 
     <dependencies>
+        <!-- 只有添加 spring-boot-starter-web 依赖，才能开启异步任务 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

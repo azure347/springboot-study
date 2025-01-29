@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -12,6 +13,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @description 应用启动类
  * @create 2025-01-28 16:37
  */
+// 开启异步支持
+@EnableAsync
 // 允许当前的应用开启定时任务
 @EnableScheduling
 @SpringBootApplication
