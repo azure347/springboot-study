@@ -29,7 +29,7 @@ public class SpringBootStudyApplication {
         // 3. SpringApplicationBuilder Fluent Api  链式调用
         new SpringApplicationBuilder(SpringBootStudyApplication.class)
                 .bannerMode(Banner.Mode.OFF)
-                .web(WebApplicationType.NONE)
+//                .web(WebApplicationType.NONE)
                 .run(args);
 
     }
