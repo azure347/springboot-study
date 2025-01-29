@@ -5,12 +5,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * @author wanghao
  * @description 应用启动类
  * @create 2025-01-28 16:37
  */
+// 允许当前的应用开启定时任务
+@EnableScheduling
 @SpringBootApplication
 public class SpringBootStudyApplication {
 
